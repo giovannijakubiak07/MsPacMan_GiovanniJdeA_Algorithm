@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Eclipse Announcements: Talk with your team about EclipseCon Europe 2018</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/IZwptI85kwQ/europe2018</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/IZwptI85kwQ/europe2018</link>
+	<description>Review the program - talks, keynotes and special events - and register by October 1 for the best rates!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/IZwptI85kwQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 04 Sep 2018 15:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Doug Schaefer: Aliens, Go Home! VS Code-style!</title>
+	<guid isPermaLink="false">https://cdtdoug.ca/2018/08/31/aliens-vscode</guid>
+	<link>https://cdtdoug.ca/2018/08/31/aliens-vscode.html</link>
+	<description>&lt;p&gt;&lt;img src=&quot;https://cdtdoug.ca/images/aliens-vscode.png&quot; style=&quot;display: block; margin: auto; height: 400px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Looks ridiculous, doesn’t it. There is a method to my madness though. Stick with me…&lt;/p&gt;
+
+&lt;p&gt;I make it no secret how enthusiastic I am about Visual Studio Code as an IDE platform. I have often commented on my desire to start building tools using web front end technologies (and not necessarily web back ends). I even prototyped an &lt;a href=&quot;https://cdtdoug.ca/2017/02/16/what-is-two-much-more-than-yet-another-eclipse-ide.html&quot;&gt;“Eclipse Two”&lt;/a&gt; that was built on Electron directly. In the end, the Microsoft Zurich team, who also happened to be former leaders at Eclipse, created something similar with a huge community and ecosystem of extensions and I jumped on the bandwagon.&lt;/p&gt;
+
+&lt;p&gt;Being a good code editor and debugger is one thing, in the end there’s more to life as a developer than writing code. Often the systems we work with are more complicated than can be simply represented in text. We need graphics that can abstract away some of the gory details and make system behavior and relationships easier to understand. And that includes both ends, from modeling when creating the system, to tracing when trying to see what it’s doing once we built it.&lt;/p&gt;
+
+&lt;p&gt;There’s a number of ways you can do graphics in a web front end. The first one I considered was SVG. I like it because it’s backed by a data model with API that will let you change properties programmatically. And it simply gives an object oriented approach to graphics. It’s not all good though since those objects come with a price in memory and setup time. But if you keep the number of elements you create under a thousand or so, it’s pretty quick.&lt;/p&gt;
+
+&lt;p&gt;The other advantage of being in the DOM is that React can handle SVG with it’s virtual DOM. This speeds up rendering from changes to the underlying data model and automatically calculates that for you. It’s one of the coolest things in React and why we use it for all our web UI work.&lt;/p&gt;
+
+&lt;p&gt;So I set off to google around for examples where people had done that and I quickly ran across an article series &lt;a href=&quot;https://auth0.com/blog/developing-games-with-react-redux-and-svg-part-1&quot;&gt;Developing Games with React, Redux, and SVG&lt;/a&gt;. It’s really cool and proves out my main thesis about handling changing data models. Games, of course, are all about changing data models!&lt;/p&gt;
+
+&lt;p&gt;To complete the exercise, hooked up a simple VS Code extension that opened up a webview panel and ran the game in it. I rewrote most of it using TypeScript, since I refuse to give into the typeless world of JavaScript. I also switched over to MobX which some of my colleagues were using and it’s much easier to deal with than Redux. The whole thing was a joy to work with.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested, &lt;a href=&quot;https://github.com/dschaefer/aliens-vscode&quot;&gt;I have pushed up my results to my GitHub repositories&lt;/a&gt;. It does look ridiculous running in VS Code. But it shows off the power of the platform. Running in a webview means you’re running in a separate process from the rest of vscode so what ever you do there doesn’t impact the rest of the IDE. From there, you can communicate back with your extension to allow it to interact with your environment and grab data from systems and files and feed back data for rendering. I can’t wait to see where the community (and myself for that matter) take this architecture.&lt;/p&gt;</description>
+	<pubDate>Fri, 31 Aug 2018 18:01:00 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: MetaModelAgent and Photon me</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=1117</guid>
+	<link>https://papyrusuml.wordpress.com/2018/08/30/metamodelagent-and-me/</link>
+	<description>&lt;p&gt;Adocus, a member of my industrial consortium, has released a version of &lt;a href=&quot;http://www.adocus.com/en/products/metamodelagent/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;MetaModelAgent&lt;/a&gt;, their DSML tool, for &lt;a href=&quot;http://projects.eclipse.org/projects/modeling.mdt.papyrus/releases/4.0.0&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;my Photon edition&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;You can read more bout it on their &lt;a href=&quot;http://www.adocus.com/en/news/metamodelagent-v431-released/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;release page&lt;/a&gt;!&lt;/p&gt;
+		&lt;div class=&quot;wpcnt&quot;&gt;
+			&lt;div class=&quot;wpa wpmrec&quot;&gt;
+				&lt;span class=&quot;wpa-about&quot;&gt;Advertisements&lt;/span&gt;
+				&lt;div class=&quot;u&quot;&gt;		&lt;div style=&quot;padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-right: 5px; margin-top: 0px;&quot;&gt;
+		&lt;div id=&quot;atatags-26942-5b87ed65a545d&quot;&gt;
+			
+		&lt;/div&gt;&lt;/div&gt;		&lt;div style=&quot;padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-top: 0px;&quot;&gt;
+		&lt;div id=&quot;atatags-114160-5b87ed65a545f&quot;&gt;
+			
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+				
+			&lt;/div&gt;
+		&lt;/div&gt;</description>
+	<pubDate>Thu, 30 Aug 2018 13:12:16 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation Welcomes 16 New Members As Jakarta EE and Eclipse IoT Developer Communities Surge</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/RrzL-H0vxCQ/Eclipse-Foundation-Welcomes-16-New-Members-As-Jakarta-EE-and-Eclipse-IoT-Developer-Communities-Surge.html</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/RrzL-H0vxCQ/Eclipse-Foundation-Welcomes-16-New-Members-As-Jakarta-EE-and-Eclipse-IoT-Developer-Communities-Surge.html</link>
+	<description>Today, the Eclipse Foundation announced the addition of 16 new members.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/RrzL-H0vxCQ&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Wed, 29 Aug 2018 20:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Maximilian and Jonas: Few seats available for the Eclipse Insight in Munich on September 3rd</title>
+	<guid isPermaLink="false">https://eclipsesource.com/?p=39851</guid>
+	<link>https://eclipsesource.com/blogs/2018/08/29/few-seats-available-for-the-eclipse-insight-in-munich-on-september-3rd/</link>
+	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are looking forward to host the first Eclipse Insight in Munich next week on september the 3rd (5.30 pm – 9 pm). There are a few remaining seats available, for registration please see &lt;/span&gt;&lt;a href=&quot;https://www.eventbrite.de/e/eclipse-insight-building-modeling-tools-tickets-45894598981&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The topic of the event will be how to build modeling tools based on open source and Eclipse technology. A special focus will be on the long-term protection of investments in Modeling Tools in times of technology changes, especially regarding web technologies.&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In the first part, there will be expert talks and demos about building a modeling tool based on the well-proven Eclipse platform and EMF. In the second part, we will give an outlook on how those tools can be migrated or directly implemented based on web technologies (e.g. based on &lt;/span&gt;&lt;a href=&quot;https://eclipsesource.com/blogs/2018/06/20/welcome-at-eclipse-theia/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse Theia&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;). All speakers will be available for detailed questions and discussions afterwards.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Registration is mandatory, as seats are limited, make sure to get one of the remaining seats and register &lt;/span&gt;&lt;a href=&quot;https://www.eventbrite.de/e/eclipse-insight-building-modeling-tools-tickets-45894598981&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;. The event is free of charge including drinks and snacks.&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Please feel free to forward this invitation to interested colleagues.&lt;/span&gt;&lt;/p&gt;</description>
+	<pubDate>Wed, 29 Aug 2018 18:10:44 +0000</pubDate>
+</item>
+<item>
+	<title>N4JS: Control flow graphs in N4JS</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-7569987920628430132.post-6918804310889311198</guid>
+	<link>https://n4js.blogspot.com/2018/08/control-flow-graphs-in-n4js_29.html</link>
+	<description>&lt;h4&gt;&lt;b&gt;The N4JS IDE comes with several tools to get insights into the source code such as the AST and the control flow. In this post we present the control flow graph view.&lt;/b&gt;&lt;/h4&gt;&lt;div&gt;&lt;span style=&quot;font-size: x-small; text-align: right;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-cAOdKALRBYk/W4Z-xpbOwvI/AAAAAAAAADQ/ifSTKJstjR82v8W2CAvcmWFKYgHl80DdgCEwYBhgL/s1600/N4JS-IDE.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-cAOdKALRBYk/W4Z-xpbOwvI/AAAAAAAAADQ/ifSTKJstjR82v8W2CAvcmWFKYgHl80DdgCEwYBhgL/s1600/N4JS-IDE.png&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;When learning a programming language, we probably start with a small &lt;i&gt;Hello World!&lt;/i&gt; program. From there on, we learn not only language keywords and libraries, but also get an implicit understanding in which order statements and expressions are executed. This order is called &lt;i&gt;control flow&lt;/i&gt;. For instance, we learn the effects of &lt;span&gt;if&lt;/span&gt; and &lt;span&gt;for&lt;/span&gt; statements which are also called &lt;i&gt;control statements&lt;/i&gt;, since they have a big influence on the execution order. The most difficult statement in this respect is probably the &lt;span&gt;try-finally&lt;/span&gt; control statement, which is explained later.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Hello World&lt;/h3&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; f() {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;console.log(&lt;span style=&quot;color: #38761d;&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;);&lt;/span&gt;&lt;br /&gt;&lt;span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Let's have a look at the &lt;i&gt;Hello World!&lt;/i&gt; from a control flow perspective, first. The source code of &lt;i&gt;Hello World!&lt;/i&gt; is simple, but it already consists of three important elements:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;the method call &lt;span&gt;console.log&lt;/span&gt;,&lt;/li&gt;&lt;li&gt;the nested argument &lt;span&gt;&quot;Hello World!&quot;&lt;/span&gt;, and&lt;/li&gt;&lt;li&gt;the function body of &lt;span&gt;f()&lt;/span&gt; which contains the two elements mentioned above.&lt;/li&gt;&lt;/ul&gt;The function body is also called &lt;i&gt;control flow container&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-qOAz5PlWg4c/W4Z-wS4-1wI/AAAAAAAAADM/jQqFTmlDPLgp-0TWRPLuh6U8VtIDTDnWACEwYBhgL/s1600/CFG_HelloWorld.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-qOAz5PlWg4c/W4Z-wS4-1wI/AAAAAAAAADM/jQqFTmlDPLgp-0TWRPLuh6U8VtIDTDnWACEwYBhgL/s1600/CFG_HelloWorld.png&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;The image above shows the control flow graph of the &lt;i&gt;Hello World!&lt;/i&gt; example. The method call is separated into the receiver and its property &lt;span&gt;log&lt;/span&gt;. The next element the control flow goes to is the argument &lt;span&gt;&quot;Hello World!&quot;&lt;/span&gt; until it reaches the method call of &lt;span&gt;log&lt;/span&gt; as the final element.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Loops&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;The example above showed the succeeding control flow of some code elements. This control flow gets more interesting in statements that introduce branches such as loop statements do. In the example below, the control flow of a &lt;span&gt;for&lt;/span&gt;-loop is shown. To indicate the start and end of the function, and also the body of the loop, the function calls &lt;span&gt;start()&lt;/span&gt;, &lt;span&gt;loop()&lt;/span&gt; and &lt;span&gt;end()&lt;/span&gt; are used.&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; f() {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;start();&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color: #660000; font-weight: bold;&quot;&gt;for&lt;/span&gt; (&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;var&lt;/span&gt;&lt;/b&gt; &lt;span style=&quot;color: #783f04;&quot;&gt;i&lt;/span&gt;=&lt;span style=&quot;color: #0b5394;&quot;&gt;0&lt;/span&gt;; &lt;span style=&quot;color: #783f04;&quot;&gt;i&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #0b5394;&quot;&gt;2&lt;/span&gt;; &lt;span style=&quot;color: #783f04;&quot;&gt;i&lt;/span&gt;++) {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;loop();&lt;/span&gt;&lt;br /&gt;&lt;span&gt;  }&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;  &lt;/span&gt;end();&lt;/span&gt;&lt;br /&gt;&lt;span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-zC8r0Ekgkjs/W4Z-wgteq8I/AAAAAAAAADE/bCidfaEh2tQuUxrg8N0P4-yNVCvbFfajgCEwYBhgL/s1600/CFG_ForLoop.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-zC8r0Ekgkjs/W4Z-wgteq8I/AAAAAAAAADE/bCidfaEh2tQuUxrg8N0P4-yNVCvbFfajgCEwYBhgL/s1600/CFG_ForLoop.png&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;The control flow of the loop example shows branches and merges. After the condition &lt;span&gt;i&amp;lt;2&lt;/span&gt;, either the body is entered via the edge named &lt;i&gt;LoopEnter&lt;/i&gt;, or the loop is exited. In case the body was entered, the control flow first targets the call to &lt;span&gt;loop()&lt;/span&gt; and then goes back to the entry of the condition.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Try-Finally&lt;/h3&gt;&lt;div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-lvDj2f4FAoQ/W4Z-w4agiiI/AAAAAAAAADM/OVSbV6kSJBcT0PtYYcpCPRav7RtTAYF5ACEwYBhgL/s1600/CFG_TryFinally.png&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-lvDj2f4FAoQ/W4Z-w4agiiI/AAAAAAAAADM/OVSbV6kSJBcT0PtYYcpCPRav7RtTAYF5ACEwYBhgL/s1600/CFG_TryFinally.png&quot; width=&quot;150&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;Finally blocks have tricky semantics since they can be entered and exited in two specific ways: normally and abruptly. Abrupt control flow occurs after a &lt;span&gt;return&lt;/span&gt;, &lt;span&gt;continue&lt;/span&gt;, &lt;span&gt;break&lt;/span&gt; or &lt;span&gt;throw&lt;/span&gt; statement. These will introduce a jump that targets either the end of the function or the entry of a finally block. In case the control flow jumps to a finally block, this finally block will be executed normally. However, since the block was entered abruptly, it will exit abruptly again. This means, that there will be a second jump from the exit of the finally block to either the end of function or the entry of the next finally block.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The following example shows this behaviour by using some dead code elements, which have a grey background colour in the graph image. These dead code elements are not reachable, since there is no normal control flow path that exits the try block.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; t() {&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;&quot;start&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #660000; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;b style=&quot;color: #660000;&quot;&gt;try&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        &lt;/span&gt;2&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #660000; white-space: pre;&quot;&gt;        &lt;/span&gt;&lt;b style=&quot;color: #660000;&quot;&gt;return&lt;/b&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        &lt;/span&gt;3&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;    } &lt;span style=&quot;color: #660000;&quot;&gt;&lt;b&gt;finally&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        &lt;/span&gt;&quot;finally&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;}&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;    &lt;span style=&quot;color: #38761d;&quot;&gt;&quot;end&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Final catch&lt;/h3&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;In case you ever wondered how a thrown exception can be caught without using a catch block, have a look at the final example. It is true that once a finally block was entered abruptly, it can only be exited abruptly. However, the kind of abrupt control flow might be changed. In the example below, it is changed from throwing an exception to breaking the loop. Of course, after the loop was exited due to the &lt;span&gt;break&lt;/span&gt; statement, the control flow is normal again and the thrown exception remains without effect. Hence, the last statement &lt;span&gt;&quot;end&quot;&lt;/span&gt; is executed which would have been skipped otherwise.&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-E1VpO3JZ2ow/W4Z-wfHi1xI/AAAAAAAAADI/SWJFeScEQWg6WtYq9MgJvX_PekAqP7F1QCEwYBhgL/s1600/CFG_ThrowToBreak.png&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-E1VpO3JZ2ow/W4Z-wfHi1xI/AAAAAAAAADI/SWJFeScEQWg6WtYq9MgJvX_PekAqP7F1QCEwYBhgL/s1600/CFG_ThrowToBreak.png&quot; width=&quot;360&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;&lt;span style=&quot;color: #660000;&quot;&gt;function&lt;/span&gt;&lt;/b&gt; t() {&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;&quot;start&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;do&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;try&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;&lt;span style=&quot;color: #0b5394;&quot;&gt;2&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;throw&lt;/b&gt;&lt;/span&gt; &lt;span style=&quot;color: #38761d;&quot;&gt;&quot;exception&quot;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;} &lt;span style=&quot;color: #660000;&quot;&gt;&lt;b&gt;finally&lt;/b&gt;&lt;/span&gt; {&lt;br /&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #660000;&quot;&gt;&lt;b style=&quot;color: #660000;&quot;&gt;break&lt;/b&gt;&lt;/span&gt;;&lt;br /&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;}&lt;br /&gt;&lt;span style=&quot;color: #38761d; white-space: pre;&quot;&gt;    &lt;/span&gt;} &lt;span style=&quot;color: #660000;&quot;&gt;&lt;b&gt;while&lt;/b&gt;&lt;/span&gt; (&lt;span style=&quot;color: #0b5394;&quot;&gt;4&lt;/span&gt;);&lt;br /&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;    &lt;/span&gt;&quot;end&quot;&lt;/span&gt;&lt;/span&gt;;&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size: x-small;&quot;&gt;by Marcus Mews&lt;/span&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 29 Aug 2018 11:57:56 +0000</pubDate>
+	<author>noreply@blogger.com (Project N4JS)</author>
+</item>
+<item>
+	<title>typefox.io: Gitpod: A One-Click Online IDE</title>
+	<guid isPermaLink="false">http://typefox.io/?p=14929</guid>
+	<link>http://typefox.io/gitpod-a-one-click-online-ide</link>
+	<description>&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 20px;&quot;&gt;
+					&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+						&lt;div class=&quot;fusion-text&quot;&gt;&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;wp-image-14937 alignright&quot; height=&quot;390&quot; src=&quot;http://typefox.io/wp-content/uploads/2018/08/Composite2.png&quot; width=&quot;502&quot; /&gt;We at TypeFox are thrilled to announce the public beta of &lt;a href=&quot;https://www.gitpod.io/&quot;&gt;Gitpod&lt;/a&gt;. So far we have not been particularly loud about it, so it’s likely you haven’t heard about our first product.&lt;br /&gt;
+Gitpod is an online IDE for GitHub and other Git-hosting-services. With a single click on a GitHub-Issue, Pull-Request or Branch, Gitpod launches a developer workspace for you. Your frontend is the open-source &lt;a href=&quot;https://www.theia-ide.org/&quot;&gt;IDE Theia&lt;/a&gt; and the backend is a Docker container running in the cloud. Of course, you can bring your own docker images and launch plenty of simultaneous workspaces. As you may have guessed, Language Servers add excellent support for most popular programming languages.&lt;/p&gt;
+&lt;p&gt;Please read the blog-post “&lt;a href=&quot;https://medium.com/gitpod/gitpod-gitpod-online-ide-for-github-6296b907a886&quot;&gt;Gitpod — Online IDE For GitHub&lt;/a&gt;” for all the details.&lt;/p&gt;
+&lt;p&gt;We truly believe Gitpod is a valuable service for all developers on GitHub and in the future, users of other Git-hosting-services.&lt;/p&gt;
+&lt;h3&gt;Gitpod makes Theia IDE available to developers&lt;/h3&gt;
+&lt;p&gt;About one and a half years after we started the Theia project together with our friends from Ericsson, we are proud to see Eclipse Che choosing Theia as their future IDE frontend and Redhat and ARM significantly investing by contributing to Theia.&lt;/p&gt;
+&lt;p&gt;So far it was a bit hard to get your hands on Theia, as you had to either clone the repo, build and run it locally. So not exactly what you would call easy access. With Gitpod finally end users can easily work with Theia on a daily basis with just a single click on any GitHub repo. We are looking forward to work on all the useful feedback we might receive.&lt;/p&gt;
+&lt;h3&gt;Gitpod can host your custom IDE&lt;/h3&gt;
+&lt;p&gt;Theia makes it easy to create a branded web-based IDE, enhanced with custom languages and diagramming. Support for custom languages can be plugged in via the Language Server Protocol (&lt;a href=&quot;https://microsoft.github.io/language-server-protocol/&quot;&gt;LSP&lt;/a&gt;). See &lt;a href=&quot;https://microsoft.github.io/language-server-protocol/implementors/servers/&quot;&gt;here&lt;/a&gt; for a list of already-available Language Servers. The LSP is also the mechanism of choice to &lt;a href=&quot;https://www.eclipse.org/community/eclipse_newsletter/2017/may/article5.php&quot;&gt;integrate your Xtext language&lt;/a&gt;. For Diagramming there is the &lt;a href=&quot;https://typefox.io/sprotty-a-web-based-diagramming-framework&quot;&gt;Sprotty framework&lt;/a&gt;. Sprotty not only integrates with Theia but also with Xtext-languages on the server-side. Sprotty covers the ground from read-only visualizations with excellent layout algorithms to highly interactive graphical modeling environments. Locally, customs IDEs are already usable as Electron-Apps or via Docker containers.&lt;/p&gt;
+&lt;p&gt;Starting this year, we offer Gitpod as a hosting service for your custom IDEs in the public cloud. Also we will make Gitpod available for on-premise installations via Kubernetes. Please &lt;a href=&quot;http://typefox.io/contact&quot;&gt;contact us&lt;/a&gt; if you are interested to discuss the details.&lt;/p&gt;
+&lt;h3&gt;What does this mean for our clients?&lt;/h3&gt;
+&lt;p&gt;Gitpod adds a new division to TypeFox. You may know TypeFox for building custom products, consulting and support based on open-source projects. We will continue these services and we are looking for the synergies mentioned above. It is exciting to have a new building block at our disposal when creating custom IDEs! Additionally, TypeFox will operate a hosted version of Gitpod in a public cloud.&lt;/p&gt;
+&lt;h3&gt;Work with us!&lt;/h3&gt;
+&lt;p&gt;Theia, Sprotty, Gitpod, Xtext, and many customer project I can’t talk about here have been made possible by amazing people in a great team. If this technology excites you as well, &lt;a href=&quot;http://typefox.io/career&quot;&gt;contact us&lt;/a&gt;, and get paid for working full-time on this technology. Join our Team!&lt;/p&gt;
+&lt;p&gt;I hope you like Gitpod. Any kind of feedback is very welcome.&lt;/p&gt;
+&lt;/div&gt;&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+
+					&lt;/div&gt;
+				&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 28 Aug 2018 16:44:06 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools 4.9.0.AM2 for Eclipse 2018-09 M2</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/4.9.0.am2.html</guid>
+	<link>https://tools.jboss.org/blog/4.9.0.am2.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Happy to announce 4.9.0.AM2 (Developer Milestone 2) build for Eclipse 2018-09 M2.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Downloads available at &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/photon/4.9.0.AM2.html&quot;&gt;JBoss Tools 4.9.0 AM2&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Full info is at &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.9.0.AM2.html&quot;&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;general&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#general&quot;&gt;&lt;/a&gt;General&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;eclipse-2018-09&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#eclipse-2018-09&quot;&gt;&lt;/a&gt;Eclipse 2018-09&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools is now targeting Eclipse 2018-09 M2.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;fuse-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#fuse-tooling&quot;&gt;&lt;/a&gt;Fuse Tooling&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;wsdl-to-camel-rest-dsl-improvements&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#wsdl-to-camel-rest-dsl-improvements&quot;&gt;&lt;/a&gt;WSDL to Camel REST DSL improvements&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The version of the library used to generate Camel REST DSL from WSDl files has been updated. It now covers more types of WSDL files. See &lt;a class=&quot;bare&quot; href=&quot;https://github.com/jboss-fuse/wsdl2rest/milestone/3?closed=1&quot;&gt;https://github.com/jboss-fuse/wsdl2rest/milestone/3?closed=1&lt;/a&gt; for the list of improvements.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;rest-editor-tab-improvements&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#rest-editor-tab-improvements&quot;&gt;&lt;/a&gt;REST Editor tab improvements&lt;/h4&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In the last milestone we began adding editing capabilities to the read-only REST tab to the route editor we added in the previous release. Those efforts have continued and we now have a fully editable REST tab.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Fully Editable REST Editor&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/fusetools/images/fuse-editor-rest-tab-properties-11.1.0.am2.jpg&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can now:
+      * Create and delete REST Configurations
+      * Create and delete new REST Elements
+      * Create and delete new REST Operations
+      * Edit properties for a selected REST Element in the Properties view
+      * Edit properties for a selected REST Operation in the Properties view&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In addition, we’ve improved the look and feel by fixing the scrolling capabilities of the REST Element and REST Operations lists.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 27 Aug 2018 08:02:54 +0000</pubDate>
+</item>
+<item>
+	<title>Donald Raab: EC by Example: Detect</title>
+	<guid isPermaLink="false">https://medium.com/p/a764c241bb81</guid>
+	<link>https://medium.com/@donraab/ec-by-example-detect-a764c241bb81?source=rss-df39b86e9f04------2</link>
+	<description>&lt;p&gt;Learn how to find the first element of a collection that matches a condition in Java using &lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;Eclipse Collections&lt;/a&gt;.&lt;/p&gt;&lt;figure&gt;&lt;img alt=&quot;&quot; src=&quot;https://cdn-images-1.medium.com/max/1024/1*8obrlKycO-NLsgtLI-4A_g.png&quot; /&gt;Tomato &amp;lt;-&amp;gt; To.ma.to.&lt;/figure&gt;&lt;h3&gt;Detect / DetectWith&lt;/h3&gt;&lt;p&gt;Use &lt;em&gt;detect&lt;/em&gt; to find the first element of a collection that matches a given &lt;em&gt;Predicate&lt;/em&gt;. Use &lt;em&gt;detectWith&lt;/em&gt; to find the first element of a collection that matches a given &lt;em&gt;Predicate2&lt;/em&gt; with an extra parameter. The method &lt;em&gt;detectWith&lt;/em&gt; works well with method references. If no element is found that matches then &lt;em&gt;null&lt;/em&gt; is returned.&lt;/p&gt;&lt;pre&gt;MutableList&amp;lt;String&amp;gt; rainbow = Lists.&lt;strong&gt;&lt;em&gt;mutable&lt;/em&gt;&lt;/strong&gt;.with(&lt;br /&gt;        &lt;strong&gt;&quot;Red&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Orange&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Yellow&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Green&quot;&lt;/strong&gt;,&lt;br /&gt;        &lt;strong&gt;&quot;Blue&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Indigo&quot;&lt;/strong&gt;, &lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;);&lt;/pre&gt;&lt;pre&gt;String red = rainbow.detect(each -&amp;gt; each.startsWith(&lt;strong&gt;&quot;R&quot;&lt;/strong&gt;));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Red&quot;&lt;/strong&gt;, red);&lt;br /&gt;&lt;br /&gt;String red2 = rainbow.detectWith(String::startsWith, &lt;strong&gt;&quot;R&quot;&lt;/strong&gt;);&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Red&quot;&lt;/strong&gt;, red2);&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertNull&lt;/em&gt;(rainbow.detect(each -&amp;gt; each.startsWith(&lt;strong&gt;&quot;T&quot;&lt;/strong&gt;)));&lt;br /&gt;&lt;br /&gt;Assert.&lt;em&gt;assertNull&lt;/em&gt;(rainbow.detectWith(String::startsWith, &lt;strong&gt;&quot;T&quot;&lt;/strong&gt;));&lt;/pre&gt;&lt;h3&gt;DetectIfNone / DetectWithIfNone&lt;/h3&gt;&lt;p&gt;Use &lt;em&gt;detectIfNone&lt;/em&gt; to find the first element of a collection that matches a given &lt;em&gt;Predicate.&lt;/em&gt; If there is no match returns the result of evaluating the given &lt;em&gt;Function0&lt;/em&gt;. The method &lt;em&gt;detectWithIfNone&lt;/em&gt; is similar to &lt;em&gt;detectWith&lt;/em&gt;, and also works well with method references.&lt;/p&gt;&lt;pre&gt;String violetIfNone =&lt;br /&gt;        rainbow.detectIfNone(&lt;br /&gt;                each -&amp;gt; each.startsWith(&lt;strong&gt;&quot;T&quot;&lt;/strong&gt;),&lt;br /&gt;                () -&amp;gt; &lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;);&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;, violetIfNone);&lt;br /&gt;&lt;br /&gt;String violetIfNone2 =&lt;br /&gt;        rainbow.detectWithIfNone(&lt;br /&gt;                String::startsWith,&lt;br /&gt;                &lt;strong&gt;&quot;T&quot;&lt;/strong&gt;,&lt;br /&gt;                () -&amp;gt; &lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;);&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;, violetIfNone2);&lt;/pre&gt;&lt;h3&gt;DetectOptional / DetectWithOptional&lt;/h3&gt;&lt;p&gt;The method &lt;em&gt;detectOptional&lt;/em&gt; is the equivalent of &lt;em&gt;filter&lt;/em&gt;().&lt;em&gt;findFirst&lt;/em&gt;() on a Java &lt;em&gt;Stream&lt;/em&gt;. This method will return an &lt;em&gt;Optional&lt;/em&gt; which can be queried to determine if any element has matched the given &lt;em&gt;Predicate&lt;/em&gt;. The method &lt;em&gt;detectWithOptional&lt;/em&gt; is similar to &lt;em&gt;detectWith&lt;/em&gt;, and will work equally well with method references.&lt;/p&gt;&lt;pre&gt;Optional&amp;lt;String&amp;gt; violetOptional =&lt;br /&gt;        rainbow.detectOptional(each -&amp;gt; each.startsWith(&lt;strong&gt;&quot;T&quot;&lt;/strong&gt;));&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;, violetOptional.orElse(&lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;));&lt;br /&gt;&lt;br /&gt;Optional&amp;lt;String&amp;gt; violetOptional2 =&lt;br /&gt;        rainbow.detectWithOptional(String::startsWith, &lt;strong&gt;&quot;T&quot;&lt;/strong&gt;);&lt;br /&gt;Assert.&lt;em&gt;assertEquals&lt;/em&gt;(&lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;, violetOptional2.orElse(&lt;strong&gt;&quot;Violet&quot;&lt;/strong&gt;));&lt;/pre&gt;&lt;h3&gt;APIs covered in the examples&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#detect-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detect&lt;/a&gt; / &lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#detectWith-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;detectWith&lt;/a&gt; — finds the first element of a collection that matches a given &lt;em&gt;Predicate&lt;/em&gt; or &lt;em&gt;Predicate2&lt;/em&gt;. If there is no match, then &lt;em&gt;null&lt;/em&gt; is returned.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#detectIfNone-org.eclipse.collections.api.block.predicate.Predicate-org.eclipse.collections.api.block.function.Function0-&quot;&gt;detectIfNone&lt;/a&gt; / &lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#detectWithIfNone-org.eclipse.collections.api.block.predicate.Predicate2-P-org.eclipse.collections.api.block.function.Function0-&quot;&gt;detectWithIfNone&lt;/a&gt; — finds the first element of a collection that matches a given &lt;em&gt;Predicate&lt;/em&gt; or &lt;em&gt;Predicate2&lt;/em&gt;. If there is no match, then the result of evaluating the given &lt;em&gt;Function0&lt;/em&gt; is returned.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#detectOptional-org.eclipse.collections.api.block.predicate.Predicate-&quot;&gt;detectOptional&lt;/a&gt; / &lt;a href=&quot;http://www.eclipse.org/collections/javadoc/9.2.0/org/eclipse/collections/api/RichIterable.html#detectWithOptional-org.eclipse.collections.api.block.predicate.Predicate2-P-&quot;&gt;detectWithOptional&lt;/a&gt; — finds the first element of a collection that matches a given &lt;em&gt;Predicate&lt;/em&gt; or &lt;em&gt;Predicate2&lt;/em&gt;. The result of the call will be an &lt;em&gt;Optional&lt;/em&gt;, which can be queried to determine if there was a successful match.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Check out this &lt;a href=&quot;http://eclipse.github.io/eclipse-collections-kata/api-design&quot;&gt;presentation&lt;/a&gt; to learn more about the origins, design and evolution of the Eclipse Collections API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections&quot;&gt;&lt;em&gt;Eclipse Collections&lt;/em&gt;&lt;/a&gt;&lt;em&gt; is open for &lt;/em&gt;&lt;a href=&quot;https://github.com/eclipse/eclipse-collections/blob/master/CONTRIBUTING.md&quot;&gt;&lt;em&gt;contributions&lt;/em&gt;&lt;/a&gt;&lt;em&gt;. If you like the library, you can let us know by starring it on GitHub.&lt;/em&gt;&lt;/p&gt;&lt;img height=&quot;1&quot; src=&quot;https://medium.com/_/stat?event=post.clientViewed&amp;amp;referrerSource=full_rss&amp;amp;postId=a764c241bb81&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 23 Aug 2018 00:08:15 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: OSGi Remote Services Between Python and Java</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-1852346498400204443</guid>
+	<link>http://eclipseecf.blogspot.com/2018/08/osgi-remote-services-between-python-and.html</link>
+	<description>In a &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/08/python-for-osgi-remote-services.html&quot;&gt;previous post&lt;/a&gt;, I described the support for &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteservices.html&quot;&gt;OSGi Remote Services&lt;/a&gt; and &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteserviceadmin.html&quot;&gt;Remote Service Admin&lt;/a&gt; in &lt;a href=&quot;https://github.com/tcalmant/ipopo/releases&quot;&gt;iPOPO 0.8.0&lt;/a&gt; release.   The previous post refers to a &lt;a href=&quot;https://ipopo.readthedocs.io/en/0.8.0/tutorials/rsa_xmlrpc.html&quot;&gt;tutorial&lt;/a&gt; showing a Python service impl and Python consumer.&lt;br /&gt;&lt;h4&gt;Python&amp;lt;-&amp;gt;Java Distribution Provider&lt;/h4&gt;Included with &lt;a href=&quot;https://github.com/tcalmant/ipopo/releases&quot;&gt;iPOPO 0.8.0&lt;/a&gt; is a distribution provider that allows remote services between Java and Python frameworks.   For example, &lt;a href=&quot;https://ipopo.readthedocs.io/en/0.8.0/tutorials/rsa_pythonjava.html&quot;&gt;this is a tutorial&lt;/a&gt;, that uses &lt;a href=&quot;https://wiki.eclipse.org/OSGi_R7_Remote_Services_between_Python_and_Java&quot;&gt;Karaf on the Java side&lt;/a&gt; as the remote service implementation, and has a &lt;a href=&quot;https://ipopo.readthedocs.io/en/0.8.0/tutorials/rsa_pythonjava.html&quot;&gt;Python consumer&lt;/a&gt; that calls the Java-implemented remote service.&lt;br /&gt;&lt;h4&gt;Python Service Implementation with Java Consumers&lt;/h4&gt;This distribution provider also supports Python-implemented remote services, with Java/OSGi consumers.   With iPOPO for dynamic service injection in Python, and Declarative Services for Java/OSGi, this allows very easy Python&amp;lt;-&amp;gt;Java service-level interaction, with support for all dynamics, RSA management agent, extensible/customizable topology management, management of complicated service dependencies, pluggable local and network discovery, and other RS/RSA features handled consistently in both Java and Python.  As well, the use of &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteserviceadmin.html#i1889341&quot;&gt;OSGi-specified EndpointDescription service metadata&lt;/a&gt; allows service-level interoperability across languages.&lt;br /&gt;&lt;h4&gt;Python&amp;lt;-&amp;gt;Java with Protocol Buffers Serialization&lt;/h4&gt;Also included with this distribution provider is serialization using &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;Google's protocol buffers&lt;/a&gt;.  This allows open, extensible, and efficient rpc between Python and Java.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Wed, 22 Aug 2018 18:52:29 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: Calling all JUGs!</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/674 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/calling-all-jugs</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;JUGs and Meetups are invited to join the &lt;a href=&quot;https://www.eclipsecon.org/europe2018/jugs&quot;&gt;JUG Partner Program&lt;/a&gt; for EclipseCon Europe 2018. Provide your members with an opportunity to participate with special rates at the conference and help grow our shared communities.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/calling-all-jugs&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Duke360x360.png?itok=evkWlfVm&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 22 Aug 2018 11:15:35 +0000</pubDate>
+</item>
+<item>
+	<title>EclipseCon Europe 2018: What and When</title>
+	<guid isPermaLink="false">https://www.eclipsecon.org/news/671 at https://www.eclipsecon.org</guid>
+	<link>https://www.eclipsecon.org/europe2018/news/what-and-when</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;It's time to start planning your own personal schedule for EclipseCon Europe – see the Tuesday through Thursday details &lt;a href=&quot;https://www.eclipsecon.org/europe2018/schedule/2018-10-23&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Community Day schedule for Monday is coming soon.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/what-and-when&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/pgms_square.jpg?itok=43Gky32R&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 21 Aug 2018 23:51:33 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: Python for OSGi Remote Services</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-6074483969215568763</guid>
+	<link>http://eclipseecf.blogspot.com/2018/08/python-for-osgi-remote-services.html</link>
+	<description>The &lt;a href=&quot;https://ipopo.readthedocs.io/&quot;&gt;iPOPO project&lt;/a&gt; is a Python implementation of key parts of a standard OSGi framework...e.g. bundles, the service registry and servicereference api, and a dynamic service injection framework similar to the &lt;a href=&quot;http://felix.apache.org/documentation/subprojects/apache-felix-ipojo.html&quot;&gt;Apache iPOJO project&lt;/a&gt;...thus the name &lt;a href=&quot;https://ipopo.readthedocs.io/&quot;&gt;iPOPO&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;With the &lt;a href=&quot;https://github.com/tcalmant/ipopo/releases/tag/0.8.0&quot;&gt;0.8.0 release of iPOPO&lt;/a&gt;, there is now a Python implementation of the &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteservices.html&quot;&gt;OSGi Remote Services&lt;/a&gt; and &lt;a href=&quot;https://osgi.org/specification/osgi.cmpn/7.0.0/service.remoteserviceadmin.html&quot;&gt;Remote Service Admin (RSA)&lt;/a&gt; specifications.   To distinguish from the previously-provided remote services in iPOPO, this is known as &lt;a href=&quot;https://ipopo.readthedocs.io/en/0.8.0/tutorials/index.html&quot;&gt;RSA Remote Services&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;iPOPO's RSA Remote Services has many of the same advantages as Java-based Remote Services/RSA.  Some of these advantages:&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Decoupling &lt;/b&gt;- name/service contract is decoupled from the implementation (and distribution)&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Dynamics &lt;/b&gt;- The service registry dynamics behavior, along with all notifications, etc is available in Python&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Injection and Service Dependency Management&lt;/b&gt; - iPOPO provides service injection and dependency management, built upon the Python API&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Standard RemoteServiceAdmin Management Agent, RSA Console Commands&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;API for Distribution and Discovery Providers&lt;/b&gt; - There are documented APIs for creating new distribution and discovery providers, making it easy to support other transports and implementations for distribution (e.g. REST/JaxRS, Jsonrpc, MQTT, Zeroconf Discovery, etc).&lt;br /&gt;&lt;br /&gt;Other advantages of Java-based OSGi services are &lt;a href=&quot;https://www.osgi.org/developer/architecture/&quot;&gt;described here&lt;/a&gt;.   All of these advantages apply to Python/iPOPO-based services, but Python can be used to implement and/or consume services.&lt;br /&gt;&lt;br /&gt;Currently, there are two distribution providers included with iPOPO 0.8.0:  &lt;b&gt;XmlRpc&lt;/b&gt;, &lt;b&gt;Python-Java &lt;/b&gt;and one discovery provider: &lt;b&gt;&lt;a href=&quot;https://github.com/coreos/etcd&quot;&gt;etcd&lt;/a&gt;.   &lt;/b&gt;&lt;a href=&quot;https://ipopo.readthedocs.io/en/0.8.0/tutorials/index.html&quot;&gt;See here for tutorials&lt;/a&gt; showing their usage with included sample remote services.  &lt;br /&gt;&lt;br /&gt;Other distribution and discovery providers are being considered or worked on.  If you are interested in seeing a particular transport supported for distribution or discovery please open an issue on the &lt;a href=&quot;https://github.com/tcalmant/ipopo&quot;&gt;iPOPO project&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Remote Services between Python and Java&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;The Python-Java distribution provider makes it possible to use OSGi Remote Services between Python and Java...on both sides.    This allows Remote Services to be exported from Python, and discovered/imported and consumed in Java, or exported from Java and discovered/imported/consumed from Python.  See &lt;a href=&quot;https://ipopo.readthedocs.io/en/0.8.0/tutorials/rsa_pythonjava.html&quot;&gt;here for a sample and tutorial&lt;/a&gt;.   These capabilities and the underlying distribution provider will be described in more detail in a subsequent posting.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</description>
+	<pubDate>Tue, 21 Aug 2018 21:09:23 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Foundation and IBM Partner to Help Fight Natural Disasters in New Global Open Source Software Initiative</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/fgwWpQHyAlU/Eclipse-Foundation-and-IBM-Partner-to-Help-Fight-Natural-Disasters-in-New-Global-Open-Source-Software-Initiative.html</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/fgwWpQHyAlU/Eclipse-Foundation-and-IBM-Partner-to-Help-Fight-Natural-Disasters-in-New-Global-Open-Source-Software-Initiative.html</link>
+	<description>OSS developers are encouraged to create solutions that help communities improve disaster preparedness &amp;amp; recovery.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/fgwWpQHyAlU&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 21 Aug 2018 19:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Scott Lewis: Rest Remote Services with CXF or Jersey</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-20358640.post-8613088716780413920</guid>
+	<link>http://eclipseecf.blogspot.com/2018/07/rest-remote-services-with-karaf-and.html</link>
+	<description>ECF's &lt;a href=&quot;https://www.eclipse.org/ecf/NewAndNoteworthy.html&quot;&gt;Photon Release&lt;/a&gt; now includes an example of using &lt;a href=&quot;https://wiki.eclipse.org/Tutorial:_JaxRS_Remote_Services_on_Karaf&quot;&gt;Karaf with the JaxRS distribution provider&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;This distribution provider now fully supports OSGi R7 remote services, including &lt;a href=&quot;http://eclipseecf.blogspot.com/2018/06/ecf-photon-supports-osgi-r7-async.html&quot;&gt;async remote services&lt;/a&gt;, using either the &lt;a href=&quot;https://wiki.eclipse.org/Tutorial:_JaxRS_Remote_Services_on_Karaf#Using_Jersey_JaxRS_Rather_than_CXF&quot;&gt;Jersey&lt;/a&gt; or &lt;a href=&quot;https://wiki.eclipse.org/Tutorial:_JaxRS_Remote_Services_on_Karaf#Install_CXF_Distribution_Provider_Karaf_Console&quot;&gt;CXF&lt;/a&gt; JaxRS implementations.&lt;br /&gt;&lt;br /&gt;This allows service developers to easily use only &lt;a href=&quot;https://en.wikipedia.org/wiki/Java_API_for_RESTful_Web_Services&quot;&gt;JAX-RS&lt;/a&gt; annotations to define and implement OSGi R7 remote services.</description>
+	<pubDate>Tue, 21 Aug 2018 18:48:53 +0000</pubDate>
+	<author>noreply@blogger.com (Scott Lewis)</author>
+</item>
+<item>
+	<title>Thabang Mashologu: Open Source for the Greater Good</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6637 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/thabang-mashologu/open-source-greater-good</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The Eclipse Foundation is joining forces with IBM and other leading organizations in the &lt;a href=&quot;https://callforcode.org/&quot;&gt;Call for Code&lt;/a&gt; initiative to promote the development of open source solutions to mitigate the effects of natural disasters. The Foundation is proud to support tackling one of the world’s greatest challenges through the creation of sustainable technology that helps people. We encourage the Eclipse community to contribute their considerable talents to this worthy cause!&lt;br /&gt;
+&lt;strong&gt;&lt;img src=&quot;https://lh4.googleusercontent.com/ykYoC7sfZqlW8BCPEawR9nKlDoGl4X2gbrZ2XFklrAbVvd5Mf4nItzI5ZKWW_grdwNQMe5YNnM_f_vvLKrjSuKq95G1kfOfj5J0YuCWH6skFaes6GgLqQ9SJit0_rqtRtmOvTnRF&quot; style=&quot;height: 351px; width: 624px;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt; &lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Solving a Problem of Global Proportions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;The Call for Code Global Challenge was originally created by &lt;a href=&quot;https://davidclarkcause.com/&quot;&gt;David Clark Cause&lt;/a&gt;, a company that brings diverse stakeholders together to participate in purpose-driven initiatives around the world. Call for Code is powered by IBM and draws support from over 35 organizations, including United Nations Human Rights and the American Red Cross. The initiative asks developers to create solutions that significantly improve preparedness for severe weather events, help to safeguard public health and well-being, and help people recover from natural disasters.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Here are just a few sobering statistics on the global impact of natural disasters (courtesy of Call for Code):&lt;/p&gt;
+
+&lt;ul dir=&quot;ltr&quot;&gt;
+	&lt;li&gt;Since 2000, natural disasters have directly affected 2.5 billion people. Over 1 million people have died as a result of natural disasters in that period of time.&lt;/li&gt;
+	&lt;li&gt;Severe weather events are responsible for $1.5 trillion of economic impact since 2003.&lt;/li&gt;
+	&lt;li&gt;Over the last 30 years, flooding is up over 240%.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A Role for the Eclipse Community&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Open source is about giving back. &lt;/p&gt;
+
+&lt;p&gt;Many of us within the Eclipse community believe that technology innovation is a force for good in the world. Our global community has a demonstrated track record of practical problem solving by developing sustainable open technologies. IBM is both a &lt;a href=&quot;https://www.eclipse.org/membership/exploreMembership.php&quot;&gt;Strategic member&lt;/a&gt; of the Eclipse Foundation and a co-founder of Call for Code, so when they asked us to help rally developers to alleviate human suffering through lasting and scalable open source, we immediately committed our support to this remarkable effort.&lt;/p&gt;
+
+&lt;p&gt;In addition to the Eclipse Foundation’s own commitment to this cause, we are calling on our broad community of developers to participate as well. There are many ways to participate -- leverage our &lt;a href=&quot;https://www.eclipse.org/projects/&quot;&gt;existing projects&lt;/a&gt; in creating specific applications (such as the &lt;a href=&quot;https://iot.eclipse.org/projects/&quot;&gt;Eclipse IoT stacks&lt;/a&gt; and many others), contribute new code that addresses a specific need, develop test cases, testbeds, examples, etc. Every contribution helps. &lt;/p&gt;
+
+&lt;p&gt;We hope the inaugural Call for Code Challenge is just the start of an ongoing commitment by software developers to have a major, positive impact on our world. 22 million developers around the world can truly make a difference, and we’re glad to be a part of this amazing movement.&lt;/p&gt;
+
+&lt;p&gt;Please join us and answer the call! To get involved and start building today, visit &lt;a href=&quot;https://callforcode.org/&quot;&gt;CallforCode.org&lt;/a&gt;.&lt;br /&gt;
+ &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 21 Aug 2018 16:15:37 +0000</pubDate>
+</item>
+<item>
+	<title>Orion: Announcing Orion 19</title>
+	<guid isPermaLink="false">http://planetorion.org/news/?p=913</guid>
+	<link>http://planetorion.org/news/2018/08/announcing-orion-19/</link>
+	<description>&lt;p&gt;We are pleased to announce the nineteenth release of Orion, “Your IDE in the Cloud”. You can run it now at &lt;a href=&quot;https://orionhub.org/&quot;&gt;OrionHub,&lt;/a&gt; from &lt;a href=&quot;https://www.npmjs.com/package/orion&quot;&gt;NPM&lt;/a&gt; or &lt;a href=&quot;http://download.eclipse.org/orion/drops/R-19.0-201808171438/index.html&quot;&gt;download the server&lt;/a&gt; to run your own instance locally.&lt;/p&gt;
+&lt;p&gt;Once again, thank you to all committers and contributors for your hard work this release. There were 11 bugs and enhancements fixed, across &lt;a href=&quot;https://github.com/eclipse/orion.client/compare/R18_0...R19_0&quot;&gt;36 commits&lt;/a&gt; from 5 authors.&lt;/p&gt;
+&lt;p&gt;This release was focussed entirely on accessibility.&lt;/p&gt;</description>
+	<pubDate>Mon, 20 Aug 2018 13:44:19 +0000</pubDate>
+</item>
+<item>
+	<title>vert.x project: The RSS reader tutorial</title>
+	<guid isPermaLink="true">https://vertx.io/blog/the-rss-reader-tutorial</guid>
+	<link>https://vertx.io/blog/the-rss-reader-tutorial</link>
+	<description>&lt;article&gt;&lt;h1 id=&quot;the-rss-reader-tutorial&quot;&gt;The RSS reader tutorial&lt;/h1&gt;
+&lt;p&gt;This tutorial is dedicated for users who’d like to know how to use the Eclipse Vert.x Cassandra client with in practice.&lt;/p&gt;
+&lt;h1 id=&quot;before-you-start-this-tutorial&quot;&gt;Before you start this tutorial&lt;/h1&gt;
+&lt;p&gt;Before starting, you should :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;be familiar with &lt;a href=&quot;https://vertx.io/&quot;&gt;Eclipse Vert.x&lt;/a&gt;. If you are not, here is the &lt;a href=&quot;https://vertx.io/docs/guide-for-java-devs/&quot;&gt;guide for Java developers&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;have some basic understanding of databases. Extended knowledge of Cassandra is not required.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You also may find it useful to read &lt;a href=&quot;https://validator.w3.org/feed/docs/rss2.html&quot;&gt;the RSS 2.0&lt;/a&gt; specification, because the resulted app is, basically, a storage of RSS 2.0 feeds.&lt;/p&gt;
+&lt;p&gt;To give you an idea of what the App is about, here is how it looks like from the fronted side:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;see how it looks&quot; src=&quot;http://vertx.io/assets/blog/the-rss-reader-tutorial/application.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;On the image we see that browser space is split into 2 parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Saved feed names&lt;/li&gt;
+&lt;li&gt;List of articles for the selected feed&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here you also can enter a link to a new feed, so the App will fetch and parse the feed.
+After that, it will appear in the left column along with other saved feeds.&lt;/p&gt;
+&lt;h1 id=&quot;requirements&quot;&gt;Requirements&lt;/h1&gt;
+&lt;p&gt;For completing this tutorial you need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Java 8 or higher&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;1 hour of your time&lt;/li&gt;
+&lt;li&gt;You favorite code editor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For running the example you should ensure that Cassandra service is running locally on port 9042.
+As an option, you can run Cassandra with &lt;a href=&quot;https://github.com/riptano/ccm#installation&quot;&gt;ccm&lt;/a&gt;(Cassandra Cluster Manager).
+Follow &lt;a href=&quot;https://github.com/riptano/ccm#installation&quot;&gt;this&lt;/a&gt; instructions for installing ccm.
+After installing you will be able to run a single node cluster:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;ccm create rss_reader -v &lt;span class=&quot;hljs-number&quot;&gt;3.11&lt;/span&gt;.&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt; -n &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;hljs-operator&quot;&gt;-s&lt;/span&gt;
+ccm start&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For now, &lt;a href=&quot;https://github.com/vert-x3/vertx-cassandra-client&quot;&gt;Eclipse Vert.x Cassandra client&lt;/a&gt; is not available in maven central, it means that you have to build and install it locally:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;git clone https://github.com/vert-x3/vertx-cassandra-client
+&lt;span class=&quot;hljs-built_in&quot;&gt;cd&lt;/span&gt; vertx-cassandra-client
+mvn clean install -Dmaven.test.skip=&lt;span class=&quot;hljs-literal&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;hljs-operator&quot;&gt;-s&lt;/span&gt; .travis.maven.settings.xml&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Before completing this step make sure that you have successfully cloned the RSS reader repository and checked out the &lt;code&gt;step_1&lt;/code&gt; branch:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;git clone https://github.com/Sammers21/rss-reader
+&lt;span class=&quot;hljs-built_in&quot;&gt;cd&lt;/span&gt; rss-reader
+git checkout step_1&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you can try to tun this example and see if it works:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;./gradlew vertxRun&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;schema&quot;&gt;Schema&lt;/h2&gt;
+&lt;p&gt;If you are familiar with &lt;a href=&quot;http://cassandra.apache.org/&quot;&gt;Apache Cassandra&lt;/a&gt; you
+should know that the way your data is stored in Cassandra is dependent on queries
+you are running. It means that you need first to figure out what kind of queries
+you will be running, and then you can produce a storage scheme.&lt;/p&gt;
+&lt;p&gt;In our case we’d like our application to have 3 endpoints:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;POST /user/{user_id}/rss_link - for adding links to a user’s feed&lt;/li&gt;
+&lt;li&gt;GET /user/{user_id}/rss_channels - for retrieving information about RSS channels a user subscribed on&lt;/li&gt;
+&lt;li&gt;GET /articles/by_rss_link?link={rss_link} - for retrieving information about articles on a specific RSS channel&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For implementing this endpoints the schema should look in this way:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;TABLE&lt;/span&gt; rss_by_user (login &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt; , rss_link &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;PRIMARY&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;KEY&lt;/span&gt; (login, rss_link));&lt;/span&gt;
+&lt;span class=&quot;hljs-operator&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;TABLE&lt;/span&gt; articles_by_rss_link(rss_link &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, pubDate &lt;span class=&quot;hljs-keyword&quot;&gt;timestamp&lt;/span&gt;, title &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, article_link &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, description &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;PRIMARY&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;KEY&lt;/span&gt; ( rss_link , pubDate , article_link));&lt;/span&gt;
+&lt;span class=&quot;hljs-operator&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;TABLE&lt;/span&gt; channel_info_by_rss_link(rss_link &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, last_fetch_time &lt;span class=&quot;hljs-keyword&quot;&gt;timestamp&lt;/span&gt;,title &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, site_link &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, description &lt;span class=&quot;hljs-built_in&quot;&gt;text&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;PRIMARY&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;KEY&lt;/span&gt;(rss_link));&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;what-to-do-in-this-step&quot;&gt;What to do in this step&lt;/h2&gt;
+&lt;p&gt;In this step we will implement only the first endpoint&lt;/p&gt;
+&lt;h2 id=&quot;project-overview&quot;&gt;Project overview&lt;/h2&gt;
+&lt;p&gt;There are two notable classes in the project: &lt;code&gt;AppVerticle&lt;/code&gt; and &lt;code&gt;FetchVerticle&lt;/code&gt;. The first one is a &lt;a href=&quot;https://vertx.io/docs/vertx-core/java/#_verticles&quot;&gt;Verticle&lt;/a&gt; responsible for HTTP request handling and storage schema initialization. The second one is a &lt;a href=&quot;https://vertx.io/docs/vertx-core/java/#_verticles&quot;&gt;Verticle&lt;/a&gt; as well, but responsible for RSS feeds fetching.&lt;/p&gt;
+&lt;p&gt;The idea is simple. When the application is starting the &lt;code&gt;AppVerticle&lt;/code&gt; is deployed, then it tries to initialize storage schema, described in &lt;code&gt;src/main/resources/schema.cql&lt;/code&gt; file by reading it and executing listed queries line by line. After the schema initialization the &lt;code&gt;AppVerticle&lt;/code&gt; deploys &lt;code&gt;FetchVerticle&lt;/code&gt; and starts a HTTP server.&lt;/p&gt;
+&lt;h2 id=&quot;implementing-the-endpoint&quot;&gt;Implementing the endpoint&lt;/h2&gt;
+&lt;p&gt;Now, it is time to implement the first endpoint. Pay attention to &lt;code&gt;TODO&lt;/code&gt;s, they are for pointing you out about where changes should be made.&lt;/p&gt;
+&lt;p&gt;Now, let’s have a look at the &lt;code&gt;AppVerticle#postRssLink&lt;/code&gt; method. This method is called each time the first endpoint is called, so we can figure out what is the posted body and id of the user, who performed the request, directly there. There are 2 main things we want to do in this method:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Notifying via the &lt;a href=&quot;https://vertx.io/docs/vertx-core/java/#event_bus&quot;&gt;Event Bus&lt;/a&gt; the &lt;code&gt;FetchVerticle&lt;/code&gt; to fetch given by user link link to an RSS feed.&lt;/li&gt;
+&lt;li&gt;Inserting an entry to the &lt;code&gt;rss_by_user&lt;/code&gt; table.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is how the &lt;code&gt;AppVerticle#postRssLink&lt;/code&gt; method should be implemented:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;postRssLink&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(RoutingContext ctx)&lt;/span&gt; &lt;/span&gt;{
+    ctx.request().bodyHandler(body -&amp;gt; {
+        JsonObject bodyAsJson = body.toJsonObject();
+        String link = bodyAsJson.getString(&lt;span class=&quot;hljs-string&quot;&gt;&quot;link&quot;&lt;/span&gt;);
+        String userId = ctx.request().getParam(&lt;span class=&quot;hljs-string&quot;&gt;&quot;user_id&quot;&lt;/span&gt;);
+        &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (link == &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt; || userId == &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;) {
+            responseWithInvalidRequest(ctx);
+        } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+            vertx.eventBus().send(&lt;span class=&quot;hljs-string&quot;&gt;&quot;fetch.rss.link&quot;&lt;/span&gt;, link);
+            Future future = Future.future();
+            BoundStatement query = insertNewLinkForUser.bind(userId, link);
+            client.execute(query, future);
+            future.setHandler(result -&amp;gt; {
+                &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (result.succeeded()) {
+                    ctx.response().end(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; JsonObject().put(&lt;span class=&quot;hljs-string&quot;&gt;&quot;message&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;The feed just added&quot;&lt;/span&gt;).toString());
+                } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+                    ctx.response().setStatusCode(&lt;span class=&quot;hljs-number&quot;&gt;400&lt;/span&gt;).end(result.cause().getMessage());
+                }
+            });
+        }
+    });
+}
+
+&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;responseWithInvalidRequest&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(RoutingContext ctx)&lt;/span&gt; &lt;/span&gt;{
+    ctx.response()
+            .setStatusCode(&lt;span class=&quot;hljs-number&quot;&gt;400&lt;/span&gt;)
+            .putHeader(&lt;span class=&quot;hljs-string&quot;&gt;&quot;content-type&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;application/json; charset=utf-8&quot;&lt;/span&gt;)
+            .end(invalidRequest().toString());
+}
+
+&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; JsonObject &lt;span class=&quot;hljs-title&quot;&gt;invalidRequest&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{
+    &lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;JsonObject&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;()&lt;/span&gt;.&lt;span class=&quot;hljs-title&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;message&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid request&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You may notice that &lt;code&gt;insertNewLinkForUser&lt;/code&gt; is a &lt;code&gt;PreparedStatement&lt;/code&gt;, and should be initialized before the &lt;code&gt;AppVerticle&lt;/code&gt; start. Let’s do it in the &lt;code&gt;AppVerticle#prepareNecessaryQueries&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; Future &lt;span class=&quot;hljs-title&quot;&gt;prepareNecessaryQueries&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{
+    Future insertNewLinkForUserPrepFuture = Future.future();
+    client.prepare(&lt;span class=&quot;hljs-string&quot;&gt;&quot;INSERT INTO rss_by_user (login , rss_link ) VALUES ( ?, ?);&quot;&lt;/span&gt;, insertNewLinkForUserPrepFuture);
+
+    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; insertNewLinkForUserPrepFuture.compose(preparedStatement -&amp;gt; {
+        insertNewLinkForUser = preparedStatement;
+        &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; Future.succeededFuture();
+    });
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also, we should not forget to fetch a RSS by the link sent to &lt;code&gt;FetchVerticle&lt;/code&gt; via the Event Bus. We can do it in the &lt;code&gt;FetchVerticle#startFetchEventBusConsumer&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;vertx.eventBus().localConsumer(&lt;span class=&quot;hljs-string&quot;&gt;&quot;fetch.rss.link&quot;&lt;/span&gt;, message -&amp;gt; {
+    String rssLink = (String) message.body();
+    log.info(&lt;span class=&quot;hljs-string&quot;&gt;&quot;fetching &quot;&lt;/span&gt; + rssLink);
+    webClient.getAbs(rssLink).send(response -&amp;gt; {
+        &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (response.succeeded()) {
+            String bodyAsString = response.result().bodyAsString(&lt;span class=&quot;hljs-string&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;);
+            &lt;span class=&quot;hljs-keyword&quot;&gt;try&lt;/span&gt; {
+                RssChannel rssChannel = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; RssChannel(bodyAsString);
+
+                BatchStatement batchStatement = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; BatchStatement();
+                BoundStatement channelInfoInsertQuery = insertChannelInfo.bind(
+                        rssLink, &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; Date(System.currentTimeMillis()), rssChannel.description, rssChannel.link, rssChannel.title
+                );
+                batchStatement.add(channelInfoInsertQuery);
+
+                &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (Article article : rssChannel.articles) {
+                    batchStatement.add(insertArticleInfo.bind(rssLink, article.pubDate, article.link, article.description, article.title));
+                }
+                Future insertArticlesFuture = Future.future();
+                cassandraClient.execute(batchStatement, insertArticlesFuture);
+
+                insertArticlesFuture.compose(insertDone -&amp;gt; Future.succeededFuture());
+            } &lt;span class=&quot;hljs-keyword&quot;&gt;catch&lt;/span&gt; (Exception e) {
+                log.error(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Unable to fetch: &quot;&lt;/span&gt; + rssLink, e);
+            }
+        } &lt;span class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt; {
+            log.error(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Unable to fetch: &quot;&lt;/span&gt; + rssLink);
+        }
+    });
+});&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And, finally, this code would not work if &lt;code&gt;insertChannelInfo&lt;/code&gt; and &lt;code&gt;insertArticleInfo&lt;/code&gt; statements will not be initialized at verticle start. Let’s to this in the &lt;code&gt;FetchVerticle#prepareNecessaryQueries&lt;/code&gt; method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; Future &lt;span class=&quot;hljs-title&quot;&gt;prepareNecessaryQueries&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;()&lt;/span&gt; &lt;/span&gt;{
+        Future insertChannelInfoPrepFuture = Future.future();
+        cassandraClient.prepare(&lt;span class=&quot;hljs-string&quot;&gt;&quot;INSERT INTO channel_info_by_rss_link ( rss_link , last_fetch_time, description , site_link , title ) VALUES (?, ?, ?, ?, ?);&quot;&lt;/span&gt;, insertChannelInfoPrepFuture);
+
+        Future insertArticleInfoPrepFuture = Future.future();
+        cassandraClient.prepare(&lt;span class=&quot;hljs-string&quot;&gt;&quot;INSERT INTO articles_by_rss_link ( rss_link , pubdate , article_link , description , title ) VALUES ( ?, ?, ?, ?, ?);&quot;&lt;/span&gt;, insertArticleInfoPrepFuture);
+
+        &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; CompositeFuture.all(
+                insertChannelInfoPrepFuture.compose(preparedStatement -&amp;gt; {
+                    insertChannelInfo = preparedStatement;
+                    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; Future.succeededFuture();
+                }), insertArticleInfoPrepFuture.compose(preparedStatement -&amp;gt; {
+                    insertArticleInfo = preparedStatement;
+                    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; Future.succeededFuture();
+                })
+        ).mapEmpty();
+    }&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;h1 id=&quot;observing&quot;&gt;Observing&lt;/h1&gt;
+&lt;p&gt;After all this changes you should ensure that the first endpoint is working correctly. So you need to run the application, go to localhost:8080 insert a link to a rss feed there(&lt;a href=&quot;http://feeds.bbci.co.uk/news/uk/rss.xml&quot;&gt;BBC UK feed news&lt;/a&gt; for example) and then click the &lt;em&gt;ENTER&lt;/em&gt; button. Now you can connect to your local Cassandra instance, for instance with &lt;a href=&quot;https://docs.datastax.com/en/cql/3.3/cql/cql_reference/cqlsh.html&quot;&gt;cqlsh&lt;/a&gt;, and find out how RSS feed data had been saved in the rss_reader keyspace:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs sh&quot;&gt;cqlsh&amp;gt; SELECT * FROM rss_reader.rss_by_user limit &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;  ;
+
+ login | rss_link
+-------+-----------------------------------------
+ Pavel | http://feeds.bbci.co.uk/news/uk/rss.xml
+
+(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; rows)
+cqlsh&amp;gt; SELECT description FROM rss_reader.articles_by_rss_link  limit &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;;
+
+ description
+-------------------------------------
+ BBC coverage of latest developments
+
+(&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt; rows)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;In this article we figured out how to implement the first endpoint of RSS-reader app. If you have any problems with completing this step you can checkout to &lt;code&gt;step_2&lt;/code&gt;, where you can find all changes made for completing this step:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;git checkout step_2&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Thanks for reading this. I hope you enjoyed reading this article. See you soon on our &lt;a href=&quot;https://gitter.im/eclipse-vertx/vertx-users&quot;&gt;Gitter channel&lt;/a&gt;!&lt;/p&gt;
+&lt;/article&gt;</description>
+	<pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: Integration Tooling for Eclipse Photon</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/integration-stack-4.6.0.Final.html</guid>
+	<link>https://tools.jboss.org/blog/integration-stack-4.6.0.Final.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;Try our leaner, complete Eclipse Photon and Red Hat Developer Studio 12 compatible integration tooling.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio12&quot; src=&quot;https://tools.jboss.org/blog/images/devstudio12.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.6.0.Final / Red Hat Developer Studio Integration Stack 12.0.0.GA&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock note&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.6 and Red Hat Developer Studio 12.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-s-new-for-this-release&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-new-for-this-release&quot;&gt;&lt;/a&gt;What’s new for this release?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This is the initial release in support of Eclipse Photon.  It syncs up with Developer Studio 12.0.0, JBoss Tools 4.6.0 and Eclipse 4.8.0 (Photon).  It is also a maintenance release for Teiid Designer and BRMS tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;released-tooling-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#released-tooling-highlights&quot;&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;business-process-and-rules-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#business-process-and-rules-development&quot;&gt;&lt;/a&gt;Business Process and Rules Development&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;bpmn2-modeler-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#bpmn2-modeler-known-issues&quot;&gt;&lt;/a&gt;BPMN2 Modeler Known Issues&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/12.0.0_release_notes_and_known_issues/resolved_issues#bpmn2_1_5_0_final&quot;&gt;BPMN2 1.5.0.Final Known Issues Section&lt;/a&gt; of the Integration Stack 12.0.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;drools-jbpm6-known-issues&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#drools-jbpm6-known-issues&quot;&gt;&lt;/a&gt;Drools/jBPM6 Known Issues&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/12.0.0_release_notes_and_known_issues/resolved_issues#drools_7_8_0_final&quot;&gt;Drools 7.8.0.Final Known Issues Section&lt;/a&gt; of the Integration Stack 12.0.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect3&quot;&gt;
+      &lt;h4 id=&quot;data-virtualization-highlights&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#data-virtualization-highlights&quot;&gt;&lt;/a&gt;Data Virtualization Highlights&lt;/h4&gt;
+      &lt;div class=&quot;sect4&quot;&gt;
+      &lt;h5 id=&quot;teiid-designer&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#teiid-designer&quot;&gt;&lt;/a&gt;Teiid Designer&lt;/h5&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;See the &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/12.0.0_release_notes_and_known_issues/resolved_issues#teiid_designer_11_2_0_final&quot;&gt;Teiid Designer 11.2.0.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 12.0.0.GA release notes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-s-an-integration-stack&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-s-an-integration-stack&quot;&gt;&lt;/a&gt;What’s an Integration Stack?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Red Hat Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by Developer Studio, with plug-ins specifically for use when developing for other Red Hat products.  It’s where DataVirt Tooling and BRMS tooling are aggregated.  The following frameworks are supported:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;red-hat-business-process-and-rules-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-business-process-and-rules-development&quot;&gt;&lt;/a&gt;Red Hat Business Process and Rules Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat BRMS and Red Hat BPM Suite.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpel.html&quot;&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/bpmn2.html&quot;&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/drools.html&quot;&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/jbpm.html&quot;&gt;jBPM&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;red-hat-data-virtualization-development&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-data-virtualization-development&quot;&gt;&lt;/a&gt;Red Hat Data Virtualization Development&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Red Hat Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/features/teiiddesigner.html&quot;&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;the-jboss-tools-website-features-tab&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#the-jboss-tools-website-features-tab&quot;&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Don’t miss the &lt;a href=&quot;https://tools.jboss.org/features&quot;&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The easiest way to install the Integration Stack components is through the &lt;a href=&quot;https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;amp;product=jbossdeveloperstudio&amp;amp;version=12.0.0&quot;&gt;stand-alone installer&lt;/a&gt; or through our &lt;a href=&quot;http://tools.jboss.org/downloads/overview.html&quot;&gt;JBoss Tools Download Site&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For a complete set of Integration Stack installation instructions, see &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/12.0/html/installation_guide/&quot;&gt;Integration Stack Installation Guide&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Let us know how it goes!&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Paul Leacu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 14 Aug 2018 14:55:52 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Ditto: Announcing Ditto Milestone 0.8.0-M1</title>
+	<guid isPermaLink="true">https://www.eclipse.org/ditto/2018-08-14-milestone-announcement-080-M1.html</guid>
+	<link>https://www.eclipse.org/ditto/2018-08-14-milestone-announcement-080-M1.html</link>
+	<description>&lt;p&gt;Even during the summer break the Ditto team worked hard in order to provide the next milestone release. Here it is: 
+Milestone 0.8.0-M1.&lt;/p&gt;
+
+&lt;p&gt;Have a look at the Milestone &lt;a href=&quot;https://www.eclipse.org/ditto/release_notes_080-M1.html&quot;&gt;0.8.0-M1 release notes&lt;/a&gt; for what changed in detail and why
+there was a version bump from 0.3.0-M2 to 0.8.0-M1.&lt;/p&gt;
+
+&lt;p&gt;The main changes and new features are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;security enhancement by making some of Ditto’s headers not settable from the outside&lt;/li&gt;
+  &lt;li&gt;report application metrics to Prometheus&lt;/li&gt;
+  &lt;li&gt;automatically form a cluster when running in Kubernetes&lt;/li&gt;
+  &lt;li&gt;improvement of Ditto’s &lt;code class=&quot;highlighter-rouge&quot;&gt;things-service&lt;/code&gt; memory consumption&lt;/li&gt;
+  &lt;li&gt;stabilization of the connectivity to AMQP 1.0 and 0.9.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;artifacts&quot;&gt;Artifacts&lt;/h2&gt;
+
+&lt;p&gt;The new Java artifacts have been published at the &lt;a href=&quot;https://repo.eclipse.org/content/repositories/ditto/&quot;&gt;Eclipse Maven repository&lt;/a&gt;
+as well as &lt;a href=&quot;https://repo1.maven.org/maven2/org/eclipse/ditto/&quot;&gt;Maven central&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Docker images have been pushed to Docker Hub:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-policies/&quot;&gt;eclipse/ditto-policies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-things/&quot;&gt;eclipse/ditto-things&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-things-search/&quot;&gt;eclipse/ditto-things-search&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-gateway/&quot;&gt;eclipse/ditto-gateway&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-connectivity/&quot;&gt;eclipse/ditto-connectivity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/eclipse/ditto-concierge/&quot;&gt;eclipse/ditto-concierge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img alt=&quot;Ditto&quot; class=&quot;docimage&quot; src=&quot;https://www.eclipse.org/ditto/images/ditto.svg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;–&lt;br /&gt;
+The Eclipse Ditto team&lt;/p&gt;</description>
+	<pubDate>Tue, 14 Aug 2018 04:00:00 +0000</pubDate>
+</item>
+
+</channel>
+</rss>
